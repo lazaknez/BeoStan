@@ -1,0 +1,48 @@
+{
+  "_from": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+  "_id": "c4d-theme-kit@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/c4d-theme-kit",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+    "rawSpec": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+    "saveSpec": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+    "fetchSpec": "https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git#1fabb5c9cb2b53e5aa3dbf9684f9f8a5475036eb",
+  "_spec": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git",
+  "_where": "C:\\MAMP\\htdocs\\wordpress\\wp-content\\themes\\tet30",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-clone": "^2.0.1",
+    "gulp-rename": "^1.3.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "homepage": "https://bitbucket.org/coffee4devcom/c4d-theme-kit#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "c4d-theme-kit",
+  "repository": {
+    "type": "git",
+    "url": "git+https://neo88@bitbucket.org/coffee4devcom/c4d-theme-kit.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

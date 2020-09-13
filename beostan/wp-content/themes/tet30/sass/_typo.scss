@@ -1,0 +1,54 @@
+.tet30-button-small {
+  
+}
+.tet30-button-medium {
+  
+}
+.tet30-button-large {
+  line-height: 55px;
+  height: 55px;
+}
+.tet30-button-1 {
+  @include tet30-button;
+  @extend .tet30-button-large;
+  background: #eb5a46;
+  .icon {
+    line-height: 45px;
+    font-size: 14px;
+  }
+  &:hover {
+    .icon {
+      margin-left: 5px;
+    }
+  }
+}
+.tet30-button-2 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #999;
+  text-transform: uppercase;
+  &hover {
+    color: $colorHover;
+  }
+}
+.tet30-button-3 {
+  @include tet30-button;
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  border-color: #fff;
+  &:hover {
+    background: $colorHover;
+    color: #fff;
+  }
+}
+.tet30-text-display {
+  font-weight: 500;
+  font-size: 30px;
+  .b-button {
+    float: right;
+    line-height: 30px;
+    margin-top: 7px;
+    letter-spacing: 3px;
+  }
+}

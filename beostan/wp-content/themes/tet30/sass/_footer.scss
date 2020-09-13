@@ -1,0 +1,209 @@
+.tet30-footer-top {
+  padding: 73px 0 27px;
+  font-size: 15px;
+  line-height: 1.8em;
+  background: #dce3e9;
+  border-top: 1px solid #ccc;
+  font-weight: 400;
+  .widget-title {
+    padding-bottom: 0;
+    border: none;
+    font-weight: 700;
+  }
+  .row > div {
+    margin-bottom: 30px;
+  }
+}
+.tet30-footer-bottom {
+  background: #f6f6f6;
+  padding: 10px 0;
+  color: #aaa;
+  border-top: 1px solid #ccc;
+  font-weight: 400;
+}
+.footer-menu {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+  }
+  li {
+    float: left;
+    a {
+      font-size: 15px;
+      display: inline-block;
+      margin: auto 20px 10px auto;
+    }
+  }
+}
+.tet30-payment-methods {
+  text-align: center;
+  .method {
+    display: inline-block;
+    margin: 15px 5px;
+    font-size: 24px;  
+  }
+}
+.tet30-copyright {
+  color: #999;
+  text-align: left;
+  padding: 14px 0;
+  font-size: 14px;
+  @include breakpoint(768) {
+    text-align: center;
+  }
+}
+.widget-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: auto auto 20px;
+  text-transform: uppercase;
+  border-bottom: 7px solid #fed700;
+  padding-bottom: 5px;
+}
+ul.menu {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+  li {
+    a {
+      display: inline-block;
+      font-size: 15px;
+      line-height: 1.8em;
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+.gallery-columns-2 {
+  .gallery-item {
+    margin: 0 5px 10px;
+    width: 46.1%;
+    display: inline-block;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+.tet30-icon {
+  width: 25px;
+  font-size: 14px;
+}
+.tet30-locations {
+  margin-top: 20px;
+}
+.tet30-about-us-intro {
+  margin-right: 25px;
+}
+.entry-footer {
+  display: none;
+}
+.mailpoet_form {
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 45px;
+  display: inline-block;
+  @include breakpoint(640) {
+    border: none;
+  }
+}
+.mailpoet_paragraph {
+  display: inline-block;
+  margin: auto;
+  position: relative;
+  vertical-align: middle;
+  input {
+    border: none;
+    background: none;
+    padding: 0px 30px;
+    margin: auto;
+    color: #111;
+  }
+  .mailpoet_submit {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    float: right;
+    letter-spacing: 3px;
+    @include breakpoint(640) {
+      @include tet30-button;
+    }
+  }
+  .mailpoet_text {
+    min-width: 230px;
+    float: left;
+    @include breakpoint(640) {
+      min-width: 50px;
+      text-align: center;
+      border: 2px solid #ccc;
+      margin: auto auto 22px;
+      width: 100% !important;
+    }
+  }
+  .parsley-errors-list {
+    @include breakpoint(768, min-width) {
+      margin-top: 8px;
+      position: absolute;
+      bottom: -30px;
+      left: 22px; 
+    }
+    @include breakpoint(640) {
+      margin: auto auto 30px;
+    }
+  }
+}
+.tet30-newsletter {
+  background-size: cover !important;
+  @include breakpoint(768) {
+    background-position: right;
+  }
+  min-height: 500px;
+  h3 {
+    font-size: 32px;
+  }
+  .text {
+    font-size: 16px;
+    margin: 0px auto 30px;
+  }
+  .block-form { 
+    width: 450px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 150px;
+    @include breakpoint(768) {
+      width: 100%;
+      float: none;
+      margin: auto;
+      padding: 50px 15px;
+    }
+  }
+}
+.tet30-socials {
+  text-align: right;
+  @include breakpoint(768) {
+    text-align: center;
+  }
+  a {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 25px;
+    @include breakpoint(768) {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+}
+.c4d-theme-footer-simple {
+  .tet30-footer-bottom {
+    background: none;
+    padding: 50px 0;
+    border-top: 1px solid #eee;
+  }
+}

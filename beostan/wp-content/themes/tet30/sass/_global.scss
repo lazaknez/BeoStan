@@ -1,0 +1,96 @@
+.c4d-kit-main-width {
+  margin: auto;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  max-width: 1200px;
+  width: 100%;
+  &:after {
+    content: '';
+    clear: both;
+    height: 0;
+  }
+  @include breakpoint(1200) {
+    width: 100% !important;
+    max-width: 1200px;
+  }
+}
+.tet30-main-width {
+  @extend .c4d-kit-main-width;
+}
+* {
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+body {
+  font-family: $fontText;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+  color: $colorText;
+  text-decoration: none;
+}
+h1, h2, h3, h4 {
+  line-height: 1.8em;
+  color: $colorHeading;
+  font-family: $fontText;
+  font-weight: 600;
+}
+h1 {
+  font-size: 32px;
+  line-height: 1.3em;
+}
+h2 {
+  font-size: 24px;
+  line-height: 1.3em;
+}
+h3, h4 {
+  font-size: 16px;
+}
+a, a:hover {
+  color: $colorText;
+  text-decoration: none;
+}
+a, span {
+  display: inline-block;
+}
+.c4d-theme-effect a, .c4d-theme-effect a:hover {
+  transition: all 0.3s;
+}
+a:hover {
+  color: $colorHover;
+}
+.clearfix {
+  &:after {
+    content: ' ';
+    display: block;
+    clear: both;
+    height: 0;
+    width: 0;
+  }
+}
+.tet30-image {
+  width: 100%;
+  height: auto;
+}
+.tet30-margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  @include tet30-input;
+}
+input[type="checkbox"] {
+  @include tet30-input;
+  width: auto;
+}
+textarea {
+  @include tet30-textarea;
+}
+.container-fluid .container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}

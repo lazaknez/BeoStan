@@ -1,0 +1,13 @@
+.ab-icon, 
+>#wp-toolbar>#wp-admin-bar-root-default .ab-icon {
+	&.c4d-admin-menu-icon {
+		background: url(menu-admin-icon-48x48.png) no-repeat center 8px !important;
+		background-size: 16px !important;
+		width: 20px !important;
+		height: 28px !important;
+		padding: 0 !important;
+	}	
+}
+@import 'sass/_admin_layout';
+@import 'sass/_admin_welcome';
+
